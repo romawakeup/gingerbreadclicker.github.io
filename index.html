@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gingerbread Clicker</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <h1 class="header__logo-text">Gingerbread</h1>
+        <img
+          src="/img/gingerbread_logo.svg"
+          alt="Gingerbread_img"
+          class="header__logo-img"
+        />
+      </div>
+
+      <nav class="nav">
+        <ul class="header__nav">
+          <li class="nav__list"><a href="" class="nav__link">О нас</a></li>
+          <li class="nav__list">
+            <a href="" class="nav__link">Клик на скорость</a>
+          </li>
+          <li class="nav__list"><a href="" class="nav__link">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="display__block">
+        <p id="score" class="score">
+          Пряник-поинтов: <span id="points">0</span>
+          <img src="/img/gingerbread_point.svg" class="gingerbread__point" alt="" />
+        </p>
+
+        <div class="gingerbread__display">
+          <img
+            src="/img/gingerbread_display.svg"
+            alt="Пряник"
+            class="gingerbread__img"
+            id="clickImg"
+          />
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
